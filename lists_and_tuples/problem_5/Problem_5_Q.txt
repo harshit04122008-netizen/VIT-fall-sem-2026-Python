@@ -1,0 +1,23 @@
+Problem Statement
+
+Emerson is managing a list of task IDs for a project. To streamline task management, he 
+needs to remove every nth task from the list. Help Emerson by creating a program that reads 
+a tuple of task IDs and an integer n, then removes every nth task from the tuple and 
+returns the updated tuple. 
+
+If there are no n values in the tuple then display the original tuple values without any change. The position of the task ID starts from 1.
+
+Input format :
+
+The first line of input consists of an integer size, representing the number of elements in 
+the tuple.
+
+The second line contains size space-separated integers representing the task IDs in the 
+tuple.
+
+The third line contains an integer n, which specifies the position of tasks to be removed.
+
+Output format :
+
+The output is a tuple of integers, where every nth task has been removed from the original 
+tuple.
