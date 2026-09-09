@@ -1,0 +1,23 @@
+Problem Statement
+
+Charlie needs to analyze rainfall data for multiple years to determine the average monthly 
+rainfall for a specific year. He has a tuple where each element is another tuple 
+representing the monthly rainfall data for a year. 
+
+Help Charlie by writing a program that extracts the rainfall data for a given year and 
+calculates the average monthly rainfall for that year.
+
+Input format :
+
+The first line consists of an integer n, representing the number of years.
+
+The next n lines, where each line contains 12 space-separated integers. Each line 
+represents the monthly rainfall data for one year.
+
+The third line consists of an integer year, representing the year number (1-based index) 
+used to calculate the average monthly rainfall.
+
+Output format :
+
+The output displays a float value representing the average monthly rainfall for the 
+specified year, rounded to two decimal points.
