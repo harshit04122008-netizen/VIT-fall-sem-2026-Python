@@ -1,0 +1,40 @@
+Problem Statement 
+
+Kyara is analyzing a series of measurements taken over time. She needs to identify all the 
+"peaks" in this list of integers. 
+
+A peak is defined as an element that is greater than its immediate neighbors. Boundary 
+elements are considered peaks if they are greater than their single neighbor. 
+
+Your task is to find and list all such peaks using list comprehension.
+
+Example
+
+Input
+
+1 3 2 4 1 5 7 6 10 2 8
+
+Output
+
+Peaks: [3, 4, 7, 10, 8]
+
+Explanation
+
+3 is a peak because it's greater than 1 and 2.
+
+4 is a peak because it's greater than 2 and 1.
+
+7 is a peak because it's greater than 5 and 6.
+
+10 is a peak because it's greater than 6 and 2.
+
+8 is a peak because it is an boundary element and it is greater than 2.
+
+Input format :
+
+The input consists of several integers separated by spaces, representing the measurements.
+
+Output format :
+
+The output displays "Peaks: " followed by a list of integers, representing the peak 
+elements in the list.
