@@ -1,0 +1,18 @@
+Problem Statement
+
+A factory has a team of workers arranged in a fixed order for daily tasks. To improve 
+efficiency and reduce monotony, the supervisor decides to rotate the arrangement by 2 
+positions to the right. This means the last two workers will be moved to the front, and all
+ others will shift two positions to the right.
+
+You are tasked with implementing a system that takes the list of workers and rotates it 
+accordingly.
+
+Input format :
+The first line consists an integer n, representing the number of workers.
+
+The second line consists of an n space-separated strings, each representing a worker's name.
+
+Output format :
+The output consists of a single line of space-separated worker names after rotating them 2 
+positions to the right.
