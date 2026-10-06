@@ -1,0 +1,21 @@
+Problem Statement:
+
+Sita is working on a text analysis tool. She receives a list of strings and wants to identify 
+palindromic words—words that read the same forwards and backwards. Once she finds all 
+palindromes, she converts them to uppercase for emphasis and sorts them by their lengths in 
+descending order. Finally, she determines the length of the longest palindrome (or zero if 
+none exist). 
+
+Help her implement the task by using Lambda Functions.
+
+Input format :
+The first line of input consists of an integer n, the number of strings.
+
+The next n lines each consist of a string string_i representing each word.
+
+Output format :
+The first line of output prints:
+
+Length: followed by the integer value length (length of the longest palindrome).
+
+The second line of output prints the list of uppercase palindromic words sorted_pal.

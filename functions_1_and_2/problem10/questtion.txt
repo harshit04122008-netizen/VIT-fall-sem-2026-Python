@@ -1,0 +1,38 @@
+Problem Statement:
+
+Raam is a software engineer working on a project that deals with product ratings in an 
+e-commerce platform. He needs to find the longest increasing subsequence of ratings when the 
+array is processed from right to left (reverse order). This will help the team understand 
+patterns in the product's ratings over time.
+
+Raam asks you to write a program that takes the list of ratings as input and outputs the 
+longest increasing subsequence when the array is reversed and processed from left to right on 
+the reversed array.
+
+Example:
+
+Input:
+
+2 3 2 1
+
+Output:
+
+3
+
+[1, 2, 3]
+
+Explanation:
+
+The input array [2, 3, 2, 1] is reversed to [1, 2, 3, 2]. Then we find the longest increasing 
+subsequence in this reversed array. The LIS is [1, 2, 3] with length 3.
+
+Input format :
+The input contains a single line with space-separated integers representing the product 
+ratings over time.
+
+Output format :
+The first line should print the length of the largest increasing subsequence.
+
+The second line should print the longest increasing subsequence in the format [element1, 
+element2, element3, ...] where elements are separated by commas and spaces, and the entire 
+sequence is enclosed in square brackets.

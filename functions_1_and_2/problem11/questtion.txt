@@ -1,0 +1,30 @@
+Problem Statement:
+
+Aditi is working on a math tool to analyze numbers based on the harmonic mean of their digits. 
+She wants to write a Python program that takes a list of numbers and filters out only those 
+whose harmonic mean of digits is greater than a given threshold value. The program must handle 
+cases where any digit is zero by returning 0 for its harmonic mean. 
+
+Help Aditi complete her program using Lambda Function.
+
+
+Formula Section:
+
+Harmonic Mean of Digits for a number with digits d₁, d₂, ..., dₙ is:
+
+Harmonic Mean = n / ( (1/d₁) + (1/d₂) + ... + (1/dₙ) )
+
+If any digit is zero, the harmonic mean is considered 0.
+
+Input format :
+The first line of input consists of an integer, representing the count of numbers n.
+
+The next n lines each contain an integer, representing a number in the list.
+
+The final line consists of a float, representing the threshold value.
+
+Output format :
+The output prints a list of integers, containing numbers whose harmonic mean of digits is 
+greater than the threshold.
+
+If no numbers meet the condition, the program should print an empty list [].

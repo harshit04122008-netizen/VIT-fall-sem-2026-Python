@@ -1,0 +1,19 @@
+Problem Statement:
+
+Emily is a budding programmer who loves solving mathematical problems. One day, she comes 
+across a challenge to find the largest of three numbers using a custom function.
+
+Determined to improve her understanding of recursion, she decides to solve the problem without 
+using loops or built-in functions such as max().
+
+Help Emily write a recursive function that compares the three numbers and returns the largest 
+value.
+
+Function Specifications: find_max(a, b, c)
+
+Input format :
+The input consists of three space-separated floating-point values: a, b, and c.
+
+Output format :
+The output prints a floating point value, which is the largest of the given three numbers, 
+rounded off to two decimal places.

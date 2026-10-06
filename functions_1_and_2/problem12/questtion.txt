@@ -1,0 +1,19 @@
+Problem Statement:
+
+Arjun has stumbled upon a peculiar pattern of alternating vowels and consonants in certain 
+words that he believes could reveal hidden meanings. He decides to check every word for this 
+alternating pattern, ensuring that no two adjacent letters belong to the same category. 
+
+If a word exhibits this behavior, he believes reversing it will expose its hidden properties. 
+Finally, he wants to arrange these reversed words in a unique order based on the last 
+character of each word. 
+
+Help him decode the hidden meanings by performing these tasks using Lambda Functions.
+
+Input format :
+The first line of input consists of an integer n, the number of words.
+
+The next n lines each consist of a string word to be checked.
+
+Output format :
+The first (and only) line of output prints the list of reversed and sorted words sorted_words.

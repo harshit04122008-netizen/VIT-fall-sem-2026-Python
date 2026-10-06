@@ -1,0 +1,20 @@
+Problem Statement:
+
+avid is designing a support cable for a communication tower and needs to determine the exact 
+length of the cable. He knows the height of the tower and the horizontal distance from the 
+tower's base to the anchor point, which together form the two shorter sides of a right-angled 
+triangle.
+
+Help David write a program that calculates and displays the length of the support cable using 
+the Pythagorean theorem. Use the pow() function for exponentiation.
+
+Formula: c = √(a² + b²) where c is the hypotenuse and a & b are the other two sides of a 
+right-angled triangle.
+
+Input format :
+The input consists of two floating-point numbers, a and b, in each line representing the 
+lengths of the two shorter sides of a right-angled triangle.
+
+Output format :
+The output displays "The length of the hypotenuse is: " followed by the calculated length of 
+the hypotenuse rounded to two decimal places.

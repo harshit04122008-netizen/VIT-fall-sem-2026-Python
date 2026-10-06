@@ -1,0 +1,54 @@
+Problem Statement:
+
+Sandeep, a software developer at TextSegmentation Inc., is tasked with implementing a tool 
+that can segment a string into valid words using a dictionary. The tool should perform the 
+following tasks:
+
+Segment the input string into valid words based on a provided dictionary.
+Print all possible segmentations of the string.
+Print statistics about the segmentations, including the total number of segmentations, the 
+shortest segmentation (in terms of the number of words), and the longest segmentation.
+
+You are required to implement a recursive approach to solve the problem. Specifically, you 
+need to use recursion to explore all possible ways of breaking the string into words that are 
+present in the dictionary.
+
+The tool should read the input string and dictionary, segment the string using recursion, and 
+print the results, including the segmentations and the segmentation statistics.
+
+Input format :
+The first line contains the input string s.
+
+The second line contains the integer n (the number of words in the dictionary).
+
+The third line contains n space-separated words representing the dictionary.
+
+Output format :
+The first output should print each possible segmentation of the string.
+
+Output format:
+
+"segmentation1"
+
+"segmentation2"
+----
+The second output should print the total number of valid segmentations.
+
+Output format:
+
+"Total segmentations: <total>"
+
+The third output should print the shortest segmentation (in terms of the number of words).
+
+Output format:
+
+"Shortest segmentation: <shortest_segmentation>"
+
+The fourth output should print the longest segmentation (in terms of the number of words).
+
+Output format:
+
+"Longest segmentation: <longest_segmentation>"
+
+If no valid segmentations exist (total = 0), only the "Total segmentations: 0" line is 
+printed. No shortest or longest segmentation lines are output.
