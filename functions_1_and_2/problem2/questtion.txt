@@ -1,0 +1,50 @@
+Problem Statement:
+
+Sophia manages the payroll at a local business where employees are paid based on the monthly 
+hours they work. She needs to calculate the monthly salary for each employee, considering a 
+fixed hourly rate and standard deductions. The deductions amount to 15% of the gross salary.
+
+Help Sophia write a program that calculates each employee's net monthly salary. The program 
+should read the total hours worked and the hourly rate from the input, compute the gross 
+salary, apply the deductions, and then output the net salary.
+
+Example
+
+Input
+
+40
+
+12.50
+
+Output 
+
+Hours Worked: 40.0 hours
+
+Hourly Rate: 12.50 per hour
+
+Net Salary: 425.00
+
+Explanation
+
+The gross salary is calculated as 40.0 hours * 12.50/hour = 500.0
+
+The deductions are 15% of the gross salary, which is 0.15 * 500.00 = 75.00
+
+The net salary is gross - deductions = 500.0 - 75.0 = 425.00.
+
+Input format :
+The first line contains a positive floating-point number representing the number of hours 
+worked by the employee.
+
+The second line contains a positive floating-point number representing the hourly rate for the 
+employee.
+
+Output format :
+The first line displays the number of hours worked in the format "Hours Worked: {hours} hours,
+" where {hours} is the actual number of hours worked with two decimal places.
+
+The second line displays the hourly rate in the format "Hourly Rate: {rate} per hour," where 
+{rate} is the actual hourly rate rounded to two decimal places.
+
+The third line displays the net salary in the format "Net Salary: {salary}," where {salary} is 
+the actual net salary rounded to two decimal places.
