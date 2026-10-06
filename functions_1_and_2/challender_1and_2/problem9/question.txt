@@ -1,0 +1,25 @@
+Problem Statement:
+
+Rohan is building a data-analysis utility that, given a sequence of integers, must compute two 
+derived sequences:
+
+For each position, the product of all elements except the one at that position.
+The running (prefix) product up to each position.
+
+To keep the implementation concise, he uses Python’s lambda functions with functools.reduce 
+for the first task and a simple loop for the second. Help Rohan by writing a program that 
+reads the input, computes both sequences, and prints them in the specified format.
+
+Input format :
+The first line of input consists of an integer n, denoting the number of elements in the array.
+
+The second line of input consists of n space-separated integers, representing the array.
+
+Output format :
+The first line of output prints "Product except current: [p₀, p₁, …, pₙ₋₁]"
+
+where each pᵢ is the product of all array elements except the one at index i.
+
+The second line of output prints "Prefix Products: [q₀, q₁, …, qₙ₋₁]"
+
+where each qᵢ is the product of all elements from index 0 through i.

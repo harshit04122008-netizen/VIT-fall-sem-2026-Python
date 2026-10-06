@@ -1,0 +1,28 @@
+Problem Statement:
+
+Riya is working on a problem to find if there exists a subset of a given list of integers that 
+sums exactly to a target value S. She wants a recursive solution that prints the first subset 
+found whose elements add up to S. If no such subset exists, the program should print the list 
+sorted in descending order and then print "false".
+
+Your task is to write a recursive program that:
+
+Accepts a list of integers and a target sum S.
+Finds and prints any one subset of numbers that sums exactly to S.
+If no such subset exists, prints the entire list sorted in descending order followed by 
+"false".
+Input format :
+The first line contains space-separated integers representing the list nums.
+
+The second line contains an integer S, the target sum.
+
+Output format :
+If a subset exists with sum equal to S, print the subset list in the format:
+
+[subset_elements]
+
+If no subset exists, print:
+
+The input list sorted in descending order: [sorted_elements]
+
+Followed by the string "false" on the next line.

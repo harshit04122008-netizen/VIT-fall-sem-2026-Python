@@ -1,0 +1,25 @@
+roblem Statement:
+
+Zara is developing a username-cleanup utility for a community portal. Given a list of 
+candidate usernames, her tool must:
+
+Discard any name shorter than four characters (they’re too trivial).
+For each remaining name, reverse the characters to anonymize them.
+Capitalize the first letter of each reversed name for readability.
+If no username meets the length requirement, the tool should report “No valid strings.”
+
+
+To implement these transformations concisely, Zara uses lambda functions with filter and map 
+in Python. Help her write a program that reads n usernames, applies these rules, and prints 
+the cleaned list.
+
+Input format :
+The first line contains an integer n, which is the number of candidate usernames.
+
+Each of the next n lines contains a non-empty string (the username).
+
+Output format :
+If at least one username has length ≥ 4, print each transformed username on its own line in 
+the order they appeared (after filtering).
+
+Otherwise, print a single line: No valid strings

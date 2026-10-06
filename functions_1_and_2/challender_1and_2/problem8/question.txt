@@ -1,0 +1,24 @@
+Problem Statement:
+
+Ananya, a quantitative analyst at a hedge fund, needs to process a sequence of daily return 
+factors to identify key trading opportunities. She must compute two metrics  the maximum 
+product of any contiguous subarray and the maximum sum of any contiguous subarray—by 
+leveraging Python’s lambda functions within functools.reduce for concise implementation. 
+
+Your task is to help Ananya implement a program that reads an integer n and an array of n 
+integers, applies the lambda-based reductions to calculate both the product and sum metrics, 
+and prints the results in the specified format.
+
+Input format :
+The first line of input consists of an integer n representing the number of elements in the 
+sequence.
+
+The second line of input consists of n space-separated integers representing the array of 
+factors.
+
+Output format :
+The first line of output prints PMax: followed by an integer denoting the maximum product of 
+any contiguous subarray.
+
+The second line of output prints SMax: followed by an integer denoting the maximum sum of any 
+contiguous subarray.

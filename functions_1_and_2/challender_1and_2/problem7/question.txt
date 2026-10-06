@@ -1,0 +1,18 @@
+Problem Statement:
+
+Anjali wants to find out how many unique palindromic substrings exist in a given string s. A 
+palindrome is a string that reads the same forwards and backwards.
+
+Your task is to implement a recursive program that:
+
+Recursively explores all possible substrings of the input string.
+Checks if each substring is a palindrome.
+Collects all unique palindromic substrings.
+Returns the count of these unique palindromic substrings.
+Input format :
+The input consists of a string s, representing the input string where the palindromic 
+substrings need to be identified.
+
+Output format :
+The output represents a single integer representing the count of unique palindromic substrings 
+in s.
