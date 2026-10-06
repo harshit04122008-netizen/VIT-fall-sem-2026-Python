@@ -1,0 +1,27 @@
+Problem Statement:
+
+Tom is working in a warehouse inventory system, where the item IDs are assigned 
+sequentially in ascending order.
+
+He wants to develop a program using binary search to efficiently determine the closest item 
+ID that is less than or equal to a given target ID.
+
+The program takes the total number of items and their sorted IDs as input, assisting 
+warehouse staff in quickly identifying the closest available item less than or equal to the 
+target ID. Help Tom in this program.
+
+Input format :
+The first line of input consists of an integer N, representing the number of items in the 
+warehouse.
+
+The second line consists of N space-separated integers, representing the sorted list of 
+item IDs.
+
+The third line consists of an integer representing the target item ID.
+
+Output format :
+The output prints "The closest item ID less than or equal to X is Y", where X is the target 
+ID and Y is the closest item ID less than or equal to X.
+
+If no such element exists, print "No closest item with an ID less than or equal to X exists 
+in the warehouse", where X is the target ID.
