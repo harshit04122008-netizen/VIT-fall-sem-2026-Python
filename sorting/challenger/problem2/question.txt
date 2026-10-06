@@ -1,0 +1,58 @@
+Problem Statement:
+
+Ritika is a warehouse management engineer responsible for organizing inventory items placed in 
+numbered slots. The warehouse has a row of storage slots labeled from position 1 to N. Each 
+slot holds an item with a certain weight, represented as an integer.
+
+To optimize retrieval efficiency, Ritika decides to sort the items based on their slot 
+positions:
+
+Items in even-numbered positions (2, 4, 6, …) should be sorted in ascending order of weight.
+Items in odd-numbered positions (1, 3, 5, …) should be sorted in descending order of weight.
+
+Ritika wants to implement this sorting using the Insertion Sort algorithm separately on even 
+and odd positions of the array.
+
+Your task is to write a program that performs this customized sorting and displays the 
+modified inventory arrangement.
+
+
+Example:
+
+Input:
+
+10  
+
+25 36 96 58 74 14 35 15 75 95
+
+Output:
+
+96 14 75 15 74 36 35 58 25 95
+
+
+
+Explanation:
+
+Odd positions (1-based): 25, 96, 74, 35, 75 → sorted descending → 96, 75, 74, 35, 25
+
+Even positions (1-based): 36, 58, 14, 15, 95 → sorted ascending → 14, 15, 36, 58, 95
+
+
+
+Merge them back by position:
+
+→ index 0: 96, index 1: 14, index 2: 75, index 3: 15, index 4: 74, index 5: 36, index 6: 35, 
+index 7: 58, index 8: 25, index 9: 95
+
+Input format :
+The first line contains an integer N, representing the total number of inventory slots.
+
+The second line contains N space-separated integers, representing the weights in each slot 
+from position 1 to N.
+
+Output format :
+The output prints the array after performing the insertion sort as per the rules:
+
+Odd-positioned items in descending order
+Even-positioned items in ascending order
+All weights should be printed on a single line, space-separated.
