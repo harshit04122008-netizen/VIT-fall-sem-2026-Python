@@ -1,0 +1,21 @@
+Problem Statement
+
+Ram has given an array of integers representing the ages of people in a group. Ram's task is 
+to implement a linear search algorithm to find if a given age exists in the array and return 
+its index.
+
+Input format :
+
+The first line of input consists of an integer N, representing the number of people in the 
+group.
+
+The second line consists of N space-separated integers representing the ages of the people in 
+the group.
+
+The third line contains the age to be searched in the array.
+
+Output format :
+The output should print the result of the search:
+
+If the age is present in the array, print "Element <age> is present at index <index>"
+If the age is not present in the array, print "Element <age> is not present in array"
