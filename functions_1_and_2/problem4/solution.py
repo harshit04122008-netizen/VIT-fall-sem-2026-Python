@@ -4,7 +4,7 @@ def count_vowels(input_string):
         if a in "aeiouAEIOU":
             count+=1
     return count
-   input_string = input()
+input_string = input()
 
 vowel_count = count_vowels(input_string)
 
