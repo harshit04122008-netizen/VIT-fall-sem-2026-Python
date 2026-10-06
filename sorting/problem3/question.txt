@@ -1,0 +1,14 @@
+Problem Statement:
+
+Pranavi taught the bubble sort technique in her class. She wants her students to sort a set 
+of elements using the bubble sort technique.
+
+Write a program to obtain an array and sort the elements using the bubble sort technique.
+
+Input format :
+The first line of input consists of the size of the array N.
+
+The second line of input consists of N space-separated integers.
+
+Output format :
+The output prints the sorted array, separated by spaces.
