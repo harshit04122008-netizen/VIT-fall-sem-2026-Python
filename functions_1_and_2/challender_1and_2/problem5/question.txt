@@ -1,0 +1,25 @@
+Problem Statement:
+
+Imagine you are developing a text analysis tool for a cybersecurity company. Your task is to 
+create a function that analyzes input strings to categorize and count the characters into four 
+categories: uppercase letters, lowercase letters, digits, and special characters. The company 
+needs this tool to process log files and identify potential security threats.
+
+Function Signature: analyze_string(input_string)
+
+Input format :
+The input consists of a single string (without space), which may include uppercase letters, 
+lowercase letters, digits, and special characters.
+
+Output format :
+The first line contains an integer representing the count of uppercase letters in the format 
+"Uppercase letters: [count]".
+
+The second line contains an integer representing the count of lowercase letters in the format 
+"Lowercase letters: [count]".
+
+The third line contains an integer representing the count of digits in the format "Digits: 
+[count]".
+
+The fourth line contains an integer representing the count of special characters in the format 
+"Special characters: [count]".

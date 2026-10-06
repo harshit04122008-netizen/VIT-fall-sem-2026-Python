@@ -1,0 +1,20 @@
+Problem Statement:
+
+You are tasked with developing a program that includes a binary-to-decimal converter for a 
+data processing application. The application deals with binary data and necessitates an 
+accurate conversion mechanism to interact with decimal representations.
+
+Your objective is to implement a function to perform this conversion.
+
+Function Signature: binary_to_decimal(binary_string)
+
+Input format :
+The input consists of a binary string (only containing '0' and '1') to be converted into a 
+decimal number.
+
+Output format :
+If the input binary string is valid, print "The decimal equivalent of [binary_input] is 
+[decimal_result]"
+
+If the input binary string is invalid, print "Invalid binary input. Please enter a valid 
+binary number".

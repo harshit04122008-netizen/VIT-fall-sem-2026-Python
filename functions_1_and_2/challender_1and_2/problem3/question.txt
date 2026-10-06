@@ -1,0 +1,17 @@
+Problem Statement:
+
+Ella is designing a messaging application that needs to handle long text messages efficiently. 
+To optimize storage and transmission, she plans to implement a text compression feature that 
+replaces consecutive repeated characters with the character followed by its count, while 
+leaving non-repeated characters unchanged.
+
+Help Ella create a function to compress the given string without altering the original 
+message's meaning.
+
+Function Specification: def compress_string(s)
+
+Input format :
+The input consists of a single line containing the string to be compressed.
+
+Output format :
+The output consists of a single line containing the compressed string.

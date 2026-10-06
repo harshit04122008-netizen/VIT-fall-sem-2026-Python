@@ -1,0 +1,29 @@
+Problem Statement:
+
+Ayan is planning to purchase a car on loan and needs to calculate the monthly instalment he 
+needs to pay. You are required to implement a function, car_loan_installment, which calculates 
+the monthly payment based on the loan amount, an annual interest rate, and the loan tenure. 
+Use a global constant for the annual interest rate, and the function should return the monthly 
+instalment amount.
+
+Global Constants:
+
+ANNUAL_INTEREST_RATE: A global constant representing the annual interest rate on the car loan.
+
+(e.g., ANNUAL_INTEREST_RATE = 0.07 corresponds to an annual interest rate of 7%).
+
+Function Signature:
+
+car_loan_installment(loan_amount, loan_duration)
+
+Input format :
+The first line of input consists of a floating-point number loan_amount, representing the 
+car's loan amount.
+
+The second line of input consists of an integer loan_duration, representing the loan tenure in 
+years.
+
+Output format :
+The output consists of a single line that states the calculated monthly instalment amount for 
+the car loan, rounded to two decimal places, in the following format: "Monthly car instalment: 
+{calculated amount}"

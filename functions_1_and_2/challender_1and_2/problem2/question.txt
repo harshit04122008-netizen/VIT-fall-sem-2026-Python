@@ -1,0 +1,15 @@
+Problem Statement:
+
+Ankit is learning about numbers and wants to find all the factors of a given number as well as 
+count how many digits it contains. He needs a program with a function named 
+factors_and_count_digits that performs both tasks efficiently. 
+
+Help Ankit by writing this program to assist him in understanding these concepts.
+
+Input format :
+The input consists of an integer N.
+
+Output format :
+The first line of output prints "Factors: " followed by the factors of N, separated by a space.
+
+The second line prints "Total digits: " followed by the total digits of N.
