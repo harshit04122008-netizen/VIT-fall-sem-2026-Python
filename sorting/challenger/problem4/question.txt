@@ -1,0 +1,36 @@
+Problem Statement:
+
+Given an array of integers, count the number of elements to the right of each element that are 
+less than or equal to it. Implement a solution using insertion sort to count these elements 
+efficiently. Output the result as an array of counts corresponding to each element in the 
+original array.
+
+Example
+
+Input:
+
+4
+
+5 2 6 1
+
+Output:
+
+2 1 1 0
+
+Explanation:
+
+To the right of 5, there are 2 elements that are less than or equal to it (2 and 1).
+
+To the right of 2, there is 1 element that is less than or equal to it (1).
+
+To the right of 6, there is 1 element that is less than or equal to it (1).
+
+To the right of 1, there are 0 elements that are less than or equal to it.
+
+Note: if duplicate values exist in the array, an equal-valued element to the right is also 
+counted. For example, for input 7 7 7, the output is 2 1 0.
+
+Input format :
+The first line of input contains a single integer n, representing the length of the array.
+
+The second line contains n space-separated integers, representing the elements of the array.
