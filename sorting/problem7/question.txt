@@ -1,0 +1,15 @@
+Problem Statement:
+
+Help teacher Mark organize his students' test scores by developing a program that uses the 
+Selection Sort algorithm. The program should prompt for the total number of students and 
+their scores, then efficiently arrange and display the sorted results.
+
+Input format :
+The first line consists of an integer n, representing the total number of students.
+
+The second line contains n space-separated integers, representing the test scores of the 
+students.
+
+Output format :
+The output prints n lines, each containing a single integer, representing the sorted test 
+scores in non-decreasing order.
