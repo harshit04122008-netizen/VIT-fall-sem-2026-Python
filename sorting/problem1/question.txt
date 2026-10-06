@@ -1,0 +1,30 @@
+Problem Statement:
+Sam needs to sort an array of integers using the incremental insertion method. He wants to 
+implement the insertion sort algorithm, displaying the array after each iteration to track 
+the sorting process.
+
+Help him write a program that inserts each element into its correct position and prints the 
+array.
+
+Input format :
+The first line of input consists of an integer n, denoting the array size.
+
+The second line consists of n space-separated integers, representing the array of elements.
+
+Output format :
+The first line of output prints "Given Array" followed by a (String), indicating the start 
+of the initial array display.
+
+The second line of output prints the array elements (integers) separated by spaces.
+
+After each insertion iteration, the output prints "After iteration X", where X is the 
+iteration number (starting from 1). This is followed by the (String) "After iteration X" to 
+indicate the iteration count.
+
+On the next line, the current state of the array after that iteration is printed, showing 
+the array elements (integers) separated by spaces.
+
+Finally, after all iterations are completed, the output prints "Sorted Array" followed by a 
+(String), indicating the sorted array.
+
+The final line prints the sorted array (integers), with each element separated by spaces.
