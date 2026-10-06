@@ -8,4 +8,4 @@ for i in range(n):
             swapped = True
     if not swapped:
         break
-print(*L
+print(*L)
