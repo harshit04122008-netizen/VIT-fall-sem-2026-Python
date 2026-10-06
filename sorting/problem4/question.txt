@@ -1,0 +1,37 @@
+Problem Statement:
+
+You are working as a data analyst for a company that collects user feedback scores for 
+their products. The feedback scores are recorded sequentially, and sometimes you need to 
+identify specific feedback points for analysis.
+
+Given a list of feedback scores and a particular feedback score, your task is to find the 
+position of the second occurrence of this feedback score in the list. If the feedback score 
+appears less than twice, you need to handle that as well:
+
+If the feedback score does not appear at all, print a message indicating that the score was 
+not found.
+
+If the feedback score appears only once, print a message indicating that the score was 
+found only once.
+
+If the feedback score appears more than once, print the position (0 - based index) of the 
+second occurrence.
+
+Input format :
+The first input line contains an integer n, the number of feedback scores.
+
+The second input line contains n space-separated integers, each representing a feedback 
+score.
+
+The third input line contains an integer X, which is the feedback score you need to find 
+the second occurrence of.
+
+Output format :
+The output displays
+
+An integer representing the position of the second occurrence of the key in the list, or:
+"X Score not found." if the score is not present in the list, Where X is the feedback score 
+being searched for or:
+
+"X Score found only once." if the score appears only once, Where X is the feedback score 
+being searched for.
