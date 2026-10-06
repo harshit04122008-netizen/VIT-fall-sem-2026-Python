@@ -1,0 +1,26 @@
+Problem Statement:
+
+Hussain wants to create a program to calculate a person's BMI (Body Mass Index) based on their 
+weight in kilograms and height in meters. The BMI is a measure of a person's body fat relative 
+to their height.
+
+Your program should take user input for weight and height, calculate the BMI, and display the result.
+
+Function Signature: 
+
+calculate_bmi(weight, height)
+
+Formula: 
+
+BMI = Weight/(Height)2
+
+Input format :
+The first line of input consists of a positive floating-point number, the person's weight in 
+kilograms.
+
+The second line of input consists of a positive floating-point number, the person's height in 
+meters.
+
+Output format :
+The output displays "Your BMI is: [BM] followed by a float value representing the calculated 
+BMI, rounded off two decimal points.
