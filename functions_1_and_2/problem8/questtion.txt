@@ -1,0 +1,16 @@
+Problem Statement:
+
+In a local school, the teacher is organizing a number game for kids where each child is asked 
+to call out all odd numbers from 1 up to a given number N. The teacher needs a program that 
+can assist in generating this list of odd numbers to quickly verify the children's answers.
+
+The program should take a positive integer n and return a list of odd numbers from 1 to N 
+(inclusive, if N is odd). The list should be printed in a single line, with odd numbers 
+separated by commas.
+
+Input format :
+The input consists of a single integer N, representing the upper limit for generating odd 
+numbers.
+
+Output format :
+The output prints a single line containing a comma-separated list of odd numbers from 1 to N.
