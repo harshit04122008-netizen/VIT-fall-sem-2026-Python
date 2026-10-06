@@ -1,0 +1,37 @@
+Problem Statement:
+
+Emma is passionate about books and seeks a Python script to enhance her reading experience. 
+Create a script that prompts Emma to input book details, such as titles and page counts. 
+Employ Selection Sort for sorting, and categorize books as follows:
+
+Short Read: Books with fewer than 100 pages.
+
+Medium Read: Books with 100 to 300 pages.
+
+Long Read: Books with more than 300 pages.
+
+This tool will empower Emma to effortlessly choose her next read based on her preferred 
+reading time.
+
+Input format :
+The first line consists of an integer, n, representing the number of books in the 
+collection.
+
+For each of the following n lines:
+
+The first line is a string, title, representing the title of the book.
+
+The second line is an integer, pages, representing the number of pages in the book.
+
+Output format :
+The output consists of three sections, each representing a category of books:
+
+"Short Read Books:" for books with fewer than 100 pages.
+
+"Medium Read Books:" for books with 100 to 300 pages.
+
+"Long Read Books:" for books with more than 300 pages.
+
+Within each section, the books are listed in ascending order based on their page counts.
+
+For each book, the output includes the title and the number of pages.
