@@ -1,0 +1,17 @@
+Problem Statement:
+
+
+Lena, a financial analyst, needs to sort daily profit and loss values for a stock portfolio, 
+which can be either positive or negative. Using a bubble sorting technique, she must arrange 
+these values in ascending order. 
+
+Help Lena ensure the profit and loss values are sorted accurately.
+
+Input format :
+The first line of input consists of an integer n, representing the number of daily values.
+
+The second line consists of n space-separated integers, representing the profit(positive) and 
+loss(negative) values.
+
+Output format :
+The output prints the sorted profit and loss values in ascending order.
