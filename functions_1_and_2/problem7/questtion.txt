@@ -1,0 +1,32 @@
+Problem Statement:
+
+Anya is planning to invest a sum of money and wants to estimate its future value after a 
+certain number of years. She knows the initial investment, the annual growth rate, and the 
+number of years the investment will grow.
+
+Help Anya build a program that uses the built-in pow() function to calculate the final 
+investment value. The result should be displayed rounded to two decimal places for clarity.
+
+Formula: Final value of the investment = initial × (1+ rate)years
+
+where;
+
+initial - Initial investment amount
+
+rate - Annual growth rate (expressed as a decimal)
+
+years - The number of years the investment is held
+
+Input format :
+The first line consists of a floating-point number representing the initial amount of the 
+investment.
+
+The second line consists of a floating-point number representing the annual growth rate as a 
+decimal.
+
+The third line consists of an integer representing the number of years over which the 
+investment will grow
+
+Output format :
+The output displays the final value of the investment after the specified number of years, 
+rounded to two decimal places.
