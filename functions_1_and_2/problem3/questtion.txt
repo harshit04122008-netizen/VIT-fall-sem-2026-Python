@@ -1,0 +1,27 @@
+Problem Statement:
+
+Sarah works at a retail store and needs a program to help customers quickly calculate the 
+total price of an item after adding sales tax. The store applies a fixed sales tax rate of 8% 
+(0.08), defined as a global constant.
+
+Write a function that takes the item's cost as input, computes the sales tax, and returns the 
+total cost. The program should then display the original cost, the tax rate, and the final 
+total price to the customer.
+
+Help Sarah provide accurate pricing with this simple calculator!
+
+Function Signature:  total_cost(item_cost)
+
+Input format :
+The input consists of a single line containing a positive floating-point number representing 
+the cost of the item.
+
+Output format :
+The first line of output prints "Item Cost: " followed by the item's cost formatted to two 
+decimal places.
+
+The second line prints "Sales Tax Rate: " followed by the sales tax rate as a percentage with 
+a % symbol.
+
+The third line prints "Total Cost: " followed by the total cost after applying sales tax, 
+formatted to two decimal places.
