@@ -1,0 +1,38 @@
+Problem Statement:
+
+Aryan works at a logistics company and needs a program to calculate shipping costs based on a 
+package's weight and destination. The destinations can be Domestic, International, or Remote, 
+each with a fixed rate per kilogram. These rates should be defined as global constants.
+
+Help Aryan build a program that computes and displays the total shipping cost accurately.
+
+Constant Values:
+
+DOMESTIC_RATE = 5.0
+
+INTERNATIONAL_RATE = 10.0
+
+REMOTE_RATE = 15.0
+
+Function Signature: calculate_shipping(weight, destination)
+
+Formula: shipping cost = weight * destination rate
+
+Input format :
+The first line of the input consists of a float representing the weight of the package.
+
+The second line consists of a string representing the destinations(Domestic or International, 
+or Remote).
+
+Output format :
+The program outputs any one of the following:
+
+If the input is valid and the destination is recognized, the output should consist of a single 
+line stating the calculated shipping cost for the given weight and destination in the format: 
+"Shipping cost to [destination] for a [weight] kg package: [calculated cost]" with two decimal 
+places.
+
+If the input weight is not a positive float, print "Invalid weight. Weight must be greater 
+than 0."
+
+If the input destination is not one of the valid options, print "Invalid destination."
