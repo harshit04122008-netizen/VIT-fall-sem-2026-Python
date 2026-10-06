@@ -1,0 +1,28 @@
+Problem Statement:
+
+Arjun is building a text analyzer for his English assignment. He needs to create a function 
+that can count how many vowels are present in a given string. The string contains both 
+lowercase and uppercase letters. 
+
+Help him implement this function that takes an input string and returns the count of vowels in 
+the string.
+
+Function Signature: count_vowels(input_string)
+
+Input format :
+The input consists of a single line containing a string.
+
+Output format :
+The output consists of a single line containing an integer representing the number of vowels 
+(both lowercase and uppercase) found in the input string in the format:
+
+"Number of vowels in the string: [number of vowels]"
+
+Refer to the sample output for the formatting specifications.
+
+Code constraints :
+The input string consists of printable ASCII characters.
+
+The input string may contain both uppercase and lowercase characters.
+
+Length of input_string ≤ 100
