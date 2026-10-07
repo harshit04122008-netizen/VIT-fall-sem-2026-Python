@@ -1,0 +1,40 @@
+Problem Statement:
+
+Suresh runs a Mobile Phone Store and needs your help preparing a report from his sales 
+records. Each sales record contains:
+
+customer_name (string)
+mobile_brand (string: "Samsung", "Apple", "OnePlus", "Xiaomi", "Realme")
+units (integer: 1–5)
+price_per_unit (integer: 5000–100000)
+
+You need to compute the following using only dictionaries:
+
+Total units sold per brand – A dictionary where keys are brands and values are total units 
+sold.
+Total money spent per customer – A dictionary where keys are customer names and values are 
+the total amount they spent.
+Top-selling brand (by revenue) – A dictionary with the brand that earned the highest revenue 
+and its value.
+
+The code given below is incorrect. Please debug it to arrive at the correct solution.
+
+Input format :
+The first line consists of an integer n, representing the number of sales records.
+
+Each of the next n lines consists of four space-separated values: customer_name (a string), 
+mobile_brand (a string), units (an integer), and price_per_unit (an integer).
+
+Output format :
+The first line of output prints a dictionary representing the total units sold per brand, in 
+the format {'brand': units} where the key is a string (brand name) and the value is an 
+integer (total units sold).
+
+The second line of output prints a dictionary representing the total amount spent per 
+customer, in the format {'customer': amount} where the key is a string (customer name) and 
+the value is an integer (total amount spent).
+
+The third line of output prints a dictionary representing the brand with the highest total 
+revenue, in the format {'brand': revenue} where the key is a string (brand name) and the 
+value is an integer (total revenue). If multiple brands have the same maximum revenue, print 
+the one that appears first in the input.

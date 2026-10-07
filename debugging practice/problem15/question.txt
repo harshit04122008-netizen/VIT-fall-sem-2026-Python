@@ -1,0 +1,22 @@
+Problem Statement
+
+Kavya operates an online store and needs a function that takes in any number of item prices, 
+along with an optional discount percentage (defaulting to 0 when not supplied), and computes 
+the final total after the discount is applied to the sum of all item prices.
+
+She implemented a Python function *order_total(prices, discount=0) meant to add up all the 
+prices and then deduct the discount percentage from that sum. However, the function currently 
+has some bugs and returns incorrect results. Your task is to find and fix these bugs so the 
+function correctly computes the order total.
+
+Input format :
+The first line of input consists of an integer n representing the number of items.
+
+The second line of input consists of n space-separated integers representing the price of 
+each item.
+
+The third line of input consists of an integer discount representing the discount percentage. If the value is 0, the function should be called without passing the discount argument.
+
+Output format :
+The first line of output prints "Order Total: " followed by the final total after applying 
+the discount, rounded to one decimal place.

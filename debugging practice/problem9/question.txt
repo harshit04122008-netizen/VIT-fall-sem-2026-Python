@@ -1,0 +1,18 @@
+Problem Statement
+
+An organizer for a marathon event wants to rank the runners according to their finish times, 
+where a lower time reflects better performance. The list of times needs to be arranged in 
+ascending order.
+
+However, the bubble sort function currently has flawed logic. Help the developer resolve the 
+logical issues in the code so that the runner finish times are sorted correctly in ascending 
+order.
+
+Input format :
+The first line of input contains an integer n, representing the number of runners.
+
+The second line contains n space-separated integers representing the finish times of the 
+runners (in seconds).
+
+Output format :
+The output prints a single line with n space-separated integers sorted in ascending order.

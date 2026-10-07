@@ -1,0 +1,19 @@
+Problem Statement
+
+Nikhil operates an online course platform where each course comes with a base fee, and a 
+default registration fee of 100 gets added unless a different value is provided.
+
+He implemented a Python function total_fee(base_fee, registration_fee=100) meant to add the 
+base fee and registration fee to compute the total. However, the function currently has some 
+bugs and returns incorrect results. Your task is to find and fix these bugs so the function 
+works correctly, whether or not a custom registration fee is passed.
+
+Input format :
+The first line of input consists of an integer base_fee representing the base course fee.
+
+The second line of input consists of an integer registration_fee representing the 
+registration fee. If the value is 0, the function should be called without passing the 
+registration_fee argument, so the default value is used instead.
+
+Output format :
+The first line of output prints "Total Fee: " followed by the total fee amount.

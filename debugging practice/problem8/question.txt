@@ -1,0 +1,25 @@
+Problem Statement:
+
+A college hosts two cultural events, Art and Sports. The event coordinator, Naveen, needs a 
+list of all distinct participants across both events in order to arrange certificates and 
+refreshments.
+
+You are given buggy code where the code does not produce the correct output. Help Naveen fix 
+the code so it prints messages correctly according to the problem.
+
+Input format :
+The first line of input consists of an integer n, representing the number of participants in 
+Event A.
+
+The second line of input consists of n space-separated strings, representing Event A 
+participants.
+
+The third line of input consists of an integer m, representing the number of participants in 
+Event B.
+
+The fourth line of input consists of m space-separated strings, representing Event B 
+participants.
+
+Output format :
+The first line of output prints "All Participants:" followed by a list of strings 
+representing all unique participants in sorted order.

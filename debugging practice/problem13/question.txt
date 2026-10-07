@@ -1,0 +1,20 @@
+Problem Statement
+
+Ananya is developing a shopping cart feature and needs a function that calculates the final 
+price by adding a delivery charge to the item price, invoked using the item price as a 
+positional argument and the delivery charge as a keyword argument.
+
+She implemented a Python function final_price(item_price, delivery_charge) meant to add the 
+item price and delivery charge together. However, the function currently has some bugs and 
+returns incorrect results. Your task is to find and fix these bugs so the function works 
+correctly when called with a positional item_price and a keyword delivery_charge.
+
+Input format :
+The first line of input consists of an integer item_price representing the price of the item.
+
+The second line of input consists of an integer delivery_charge representing the delivery 
+charge.
+
+Output format :
+The first line of output prints "Final Price: " followed by the final price after adding 
+delivery charge.

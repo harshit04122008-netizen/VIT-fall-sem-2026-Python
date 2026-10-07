@@ -1,0 +1,27 @@
+Problem Statement:
+
+Meena oversees the payroll operations at her organization and is tasked with determining the 
+pay gap between the top-earning and lowest-earning staff members. She has access to the 
+salaries of four employees and needs to compute the difference between the maximum and minimum 
+values among them.
+
+Help Meena debug the code so it correctly calculates and displays the salary difference. The 
+core logic must be implemented using tuples to store the salary data and determine the highest 
+and lowest salaries.
+
+Input format :
+The first line of input consists of a floating-point number emp1_salary, representing the 
+salary of the first employee.
+
+The second line consists of a floating-point number emp2_salary, representing the salary of 
+the second employee.
+
+The third line consists of a floating-point number emp3_salary, representing the salary of the 
+third employee.
+
+The fourth line consists of a floating-point number emp4_salary, representing the salary of 
+the fourth employee.
+
+Output format :
+The output prints: "Difference: " followed by the salary difference between the highest and 
+lowest-paid employees, formatted to two decimal places.

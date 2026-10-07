@@ -1,0 +1,19 @@
+Problem Statement
+
+Vishal works in HR and needs a function that computes an employee's total pay by adding a 
+bonus to their base salary. He wants to be able to call the function using keyword arguments, 
+so that the order in which salary and bonus are passed doesn't matter.
+
+He implemented a Python function total_pay(salary, bonus) meant to add the salary and bonus 
+together and return the result. However, the function currently has some bugs and returns 
+incorrect results when called with keyword arguments.
+
+Your task is to find and fix these bugs so the function works correctly.
+
+Input format :
+The first line of input consists of an integer salary representing the employee's base salary.
+
+The second line of input consists of an integer bonus representing the bonus amount.
+
+Output format :
+The first line of output prints "Total Pay: " followed by the total pay amount.

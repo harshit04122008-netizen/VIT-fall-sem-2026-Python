@@ -1,0 +1,22 @@
+Problem Statement
+
+Kiran is building an academic performance tracking system for a university. The system holds 
+student records as nested tuples, each containing a student's name along with their marks in 
+three core subjects (mathematics, science, and English).
+
+He needs to compute the average performance of each student in order to generate progress 
+reports for academic advisors.
+
+Debug the given program so it correctly processes nested tuples and computes accurate average 
+marks for each student.
+
+Input format :
+The first line consists of an integer 'n' representing the number of student records.
+
+The next 'n' lines consist of a student's name followed by three integers representing marks 
+in mathematics, science, and English, respectively.
+
+Output format :
+The output consists of n lines, each displaying the student's information in the format 
+<student_name> has average <average>, where <student_name> is the student's name and <average> 
+is the calculated average mark rounded to 2 decimal places.

@@ -1,0 +1,18 @@
+Problem Statement
+
+Steven maintains a record of items bought by customers. He wants to find out which items were 
+bought more than once. Write a program to detect duplicates in the list.
+
+You are given buggy code where the code does not produce the correct output. Fix the code so 
+it prints messages correctly according to the problem
+
+Input format :
+The first line of input consists of an integer n, representing the number of purchased items.
+
+The second line consists of n space-separated strings, representing purchased items.
+
+Output format :
+The output prints "Duplicate Items:" followed by all items that appear more than once in the 
+input, sorted alphabetically and separated by spaces.
+
+If no item appears more than once, print "Duplicate Items:"

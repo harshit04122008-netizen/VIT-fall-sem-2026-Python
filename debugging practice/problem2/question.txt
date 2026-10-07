@@ -1,0 +1,19 @@
+Problem Statement:
+
+Rohan is reviewing the stock records at his warehouse. He observes that certain product codes 
+have been logged multiple times because of data entry mistakes. He wants to detect all the 
+repeated product codes and display them in the sequence they first showed up in the records.
+
+You are given buggy code that does not produce the correct output. Fix the code so it prints 
+messages correctly according to the problem.
+
+Input format :
+The first line consists of an integer n, representing the number of product records.
+
+The second line consists of n space-separated integers representing product codes.
+
+Output format :
+The output prints "Duplicates:" followed by the duplicate product codes in the order of their 
+first appearance in the input, separated by spaces.
+
+If no product code appears more than once, print "No duplicates found"

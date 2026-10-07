@@ -1,0 +1,24 @@
+Problem Statement
+
+An NGO called CareBridge collects donations in various currencies and needs a function that 
+can accept any number of named currency amounts (such as usd, eur, gbp) and convert them all 
+into a combined INR total using a fixed exchange rate for each currency.
+
+The team implemented a Python function convert_to_inr(**donations) that is supposed to fetch 
+each currency's amount from the keyword arguments, multiply it by its corresponding fixed 
+rate (usd=83, eur=90, gbp=105), and add everything up into a total. However, the function 
+currently has some bugs and returns incorrect results. Your task is to find and fix these 
+bugs so the function accurately calculates the INR total.
+
+Input format :
+The first line of input consists of an integer usd representing the donation amount in US 
+dollars.
+
+The second line of input consists of an integer eur representing the donation amount in euros.
+
+The third line of input consists of an integer gbp representing the donation amount in 
+British pounds.
+
+Output format :
+The first line of output prints "Total INR: " followed by the total donation amount converted 
+to INR.

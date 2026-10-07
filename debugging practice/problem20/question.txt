@@ -1,0 +1,27 @@
+Problem Statement
+
+Suraj works as a cashier at a medical store where he needs to compute the final bill for 
+customers buying multiple medicines. Since the number of medicines differs from customer to 
+customer, he needs a function that can accept any number of (price, quantity) pairs, along 
+with an optional discount percentage that defaults to 0 when there's no discount.
+
+He implemented a Python function final_bill(*items, discount=0), where each entry in items is 
+a tuple of (price, quantity), meant to sum price × quantity across all items and then deduct 
+the discount percentage from that total. However, the function currently has some bugs and 
+the result always comes out higher than expected.
+
+Your task is to find and fix these bugs so the function correctly unpacks the arbitrary 
+items, sums them, and applies the discount accurately, while also handling the case when 
+discount is zero (no discount applied).
+
+Input format :
+The first line of input consists of an integer n representing the number of medicines.
+
+The next n lines of input consist of two float values price and quantity representing the 
+price and quantity of each medicine.
+
+The last line of input consists of a float discount representing the discount percentage.
+
+Output format :
+The first line of output prints "Final Bill Amount: " followed by the result value rounded to 
+one decimal place.

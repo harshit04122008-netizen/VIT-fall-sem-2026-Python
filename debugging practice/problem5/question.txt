@@ -1,0 +1,38 @@
+Problem Statement:
+
+A school teacher keeps track of the marks scored by each student across various subjects. This 
+information is stored in a dictionary, where:
+
+each key represents a student's name
+each value is a list holding that student's marks
+
+The teacher needs to compute the total marks for every student and determine which students 
+have totals meeting or exceeding a specified threshold.
+
+The code provided contains errors — debug it to arrive at the correct solution.
+
+Input format :
+The first line contains an integer N, representing the number of students.
+
+For each student:
+
+The first line contains the student's name.
+The second line contains an integer M, representing the number of subjects.
+The next line contains M space-separated integers representing the marks.
+
+The last line contains an integer T, representing the total-marks threshold.
+
+Output format :
+For each student, print:
+
+StudentName: Total
+
+in the same order in which the students were entered.
+
+The last line prints:
+
+Qualified: followed by the names of students whose total marks are greater than or equal to 
+the threshold.
+
+If no student qualifies, print:
+Qualified: None

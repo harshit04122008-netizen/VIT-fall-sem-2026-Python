@@ -1,0 +1,22 @@
+Problem Statement
+
+Rekha is developing a report card generator and needs a function that takes marks for any 
+number of subjects and works out the total along with the lowest scoring subject's mark, 
+since the number of subjects can differ depending on the grade level.
+
+She implemented a Python function marks_summary(*marks) meant to return the total of all 
+marks and the minimum mark. However, the function currently has some bugs and returns 
+incorrect results. Your task is to find and fix these bugs so the function correctly computes 
+both values.
+
+Input format :
+The first line of input consists of an integer n representing the number of subjects.
+
+The second line of input consists of n space-separated integers representing the marks in 
+each subject.
+
+Output format :
+The first line of output prints "Total Marks: " followed by the sum of all marks.
+
+The second line of output prints "Lowest Mark: " followed by the lowest mark among all 
+subjects.

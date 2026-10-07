@@ -1,0 +1,21 @@
+Problem Statement
+
+Lakshmi runs a small grocery store and needs a function that works out the total bill for a 
+customer purchasing a single item. The function should take the price per unit and the 
+quantity bought as positional arguments, in that exact order, and return the total cost.
+
+She implemented a Python function calculate_bill(price, quantity) meant to multiply the price 
+by the quantity to get the total. However, the function currently has some bugs and returns 
+incorrect results.
+
+Your task is to find and fix these bugs so the function correctly computes the bill when 
+called with the price and quantity in order.
+
+Input format :
+The first line of input consists of an integer price representing the price per unit.
+
+The second line of input consists of an integer quantity representing the number of units 
+purchased.
+
+Output format :
+The first line of output prints "Total Bill: " followed by the total bill amount.

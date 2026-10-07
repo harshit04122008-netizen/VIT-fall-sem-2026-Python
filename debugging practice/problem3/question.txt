@@ -1,0 +1,24 @@
+roblem Statement:
+
+Vikram is building an online railway ticketing system that stores all train numbers in a 
+sorted list. When a passenger enters a train number, the system needs to efficiently check 
+whether that train exists in the database. Write a program that applies binary search to 
+verify if the train number exists. If it is found, return its position (1-based index) in the 
+list; if not, return -1.
+
+However, the given program contains logical bugs. Help Vikram to debug the program and 
+implement it correctly.
+
+Input format :
+The first line of input consists of an integer N which represents the number of trains in the 
+database.
+
+The second line of input consists of an integers N space-separated (sorted in ascending order) 
+— train numbers.
+
+The third line of input consists of an integer Q which represents the train number the 
+passenger is searching for
+
+Output format :
+The output Prints the position (1-based index) of the train if found. Print -1 if the train is 
+not found

@@ -1,0 +1,17 @@
+Problem Description
+
+A robot in a warehouse is responsible for arranging boxes in ascending order of weight before 
+they get loaded onto trucks. An intern coded a Selection Sort program for this purpose, but it 
+isn't producing the right results. Your task is to debug the provided program so the boxes get 
+sorted properly. 
+
+The code runs without crashing but generates incorrect output due to logical errors.
+
+Input format :
+The first line of input contains a single integer N, representing the number of boxes.
+
+The second line contains N space-separated integers representing the weights of the boxes.
+
+Output format :
+The output contains a single line containing the sorted weights in ascending order, separated 
+by a space.

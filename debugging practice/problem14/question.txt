@@ -1,0 +1,24 @@
+Problem Statement
+
+Divya keeps track of her reading habit and needs a function that determines how many pages 
+are left in a book along with the percentage she's completed so far, given the total pages 
+and the pages read, where pages read defaults to 0 if not provided.
+
+She implemented a Python function reading_progress(total_pages, pages_read=0) meant to return 
+the remaining pages and the completion percentage. However, the function currently has some 
+bugs and returns incorrect results. Your task is to find and fix these bugs so the function 
+correctly returns both values.
+
+Input format :
+The first line of input consists of an integer total_pages representing the total number of 
+pages in the book.
+
+The second line of input consists of an integer pages_read representing the number of pages 
+read so far. If the value is 0, the function should be called without passing the pages_read 
+argument.
+
+Output format :
+The first line of output prints "Pages Remaining: " followed by the pages_remaining value.
+
+The second line of output prints "Completion Percent: " followed by the completion_percent 
+value rounded to one decimal place.

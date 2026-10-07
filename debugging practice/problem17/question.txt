@@ -1,0 +1,21 @@
+Problem Statement
+
+Dr. Ramesh performs basic physics calculations and needs a function that takes a base number 
+along with any number of additional named settings (such as an exponent value), and computes 
+both the square of the base as well as the base raised to a specified exponent.
+
+He implemented a Python function compute(base, **kwargs) meant to calculate the square of the 
+base and, using the "exponent" keyword argument from kwargs, also work out the base raised to 
+that exponent. However, the function currently has some bugs and returns incorrect results. 
+Your task is to find and fix these bugs so the function correctly computes both values.
+
+Input format :
+The first line of input consists of an integer base representing the base number.
+
+The second line of input consists of an integer exponent representing the exponent value.
+
+Output format :
+The first line of output prints "Square: " followed by the square of the base.
+
+The second line of output prints "Power Result: " followed by the base raised to the given 
+exponent.
