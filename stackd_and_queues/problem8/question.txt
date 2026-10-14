@@ -1,0 +1,31 @@
+Problem Statement
+
+
+
+John is working on a project to manage and analyze the data from various sensors in a manufacturing plant. Each sensor provides a sequence of integer readings, and John needs to process this data to get some insights. He wants to implement a queue to handle these sensor readings efficiently. The requirements are as follows:
+
+
+
+Enqueue Operations: Each sensor reading needs to be added to the circular queue.
+Average Calculation: Calculate and print the average of every pair of consecutive sensor readings.
+Sum Calculation: Compute the sum of all sensor readings.
+Even and Odd Count: Count and print the number of even and odd sensor readings.
+
+
+Assist John in implementing the program.
+
+Input format :
+The first input line contains an integer n, which represents the number of sensor readings.
+
+The second line contains n space-separated integers, each representing a sensor reading.
+
+Output format :
+The first line of output prints "Averages of pairs:"
+
+The second line prints the averages of every pair of consecutive sensor readings, separated by spaces, each rounded to one decimal place.
+
+The third line prints "Sum of all elements: " followed by the sum of all sensor readings.
+
+The fourth line prints "Number of even elements: " followed by the count of even sensor readings.
+
+The fifth line prints "Number of odd elements: " followed by the count of odd sensor readings.

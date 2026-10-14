@@ -1,0 +1,44 @@
+Problem Statement
+
+
+
+Imagine a bustling coffee shop where customers are placing their orders for their favorite coffee drinks. The cafe owner, Sheeren, wants to efficiently manage the queue of coffee orders using a digital system. She needs a program to handle this queue of orders.
+
+
+
+You are tasked with creating a program that implements a queue using an array of coffee orders. Each character in the queue represents a customer's coffee order, with 'L' indicating a latte, 'E' indicating an espresso, 'M' indicating a macchiato, 'O' indicating an iced coffee, and 'N' indicating a nabob. 
+
+
+
+Customers can place orders and enjoy their delicious coffee drinks.
+
+Input format :
+The input consists of integers corresponding to the operation that needs to be performed:
+
+Choice 1: Enqueue the coffee order into the queue. If the choice is 1, the following input is a character ('L', 'E', 'M', 'O', or 'N'), separated by a line.
+
+Choice 2: Dequeue the first coffee order from the queue.
+
+Choice 3: Display the orders in the queue.
+
+Choice 4: Exit the program.
+
+Output format :
+The output displays messages according to the choice and the status of the queue:
+
+If the choice is 1:
+
+Insert the given order into the queue and display "Order for X is enqueued." where X is the inserted coffee order.
+If the queue is full, print "Queue is full. Cannot enqueue more orders."
+If the choice is 2:
+
+Dequeue a character from the queue and display "Dequeued Order: " followed by the corresponding order that is dequeued.
+If the queue is empty without any orders, print "No orders in the queue."
+If the choice is 3:
+
+The output prints "Orders in the queue are: ", followed by the space-separated orders in the queue.
+If no orders are in the queue, print "Queue is empty. No orders available."
+If the choice is 4:
+
+Exit the program and print "Exiting program".
+If any other choice is entered, the output prints "Invalid option."

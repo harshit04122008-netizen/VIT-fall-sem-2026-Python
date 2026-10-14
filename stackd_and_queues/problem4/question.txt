@@ -1,0 +1,48 @@
+Problem Statement
+
+
+
+In a bustling IT department, staff regularly submit helpdesk tickets to request technical assistance. Managing these tickets efficiently is vital for providing quality support.
+
+
+
+Your task is to develop a program that uses an array-based queue to handle and prioritize helpdesk tickets based on their unique IDs.
+
+
+
+Implement a program that provides the following functionalities:
+
+Enqueue Helpdesk Ticket: Add a new helpdesk ticket to the end of the queue. Provide a positive integer representing the ticket ID for the new ticket.
+Dequeue Helpdesk Ticket: Remove and process the next helpdesk ticket from the front of the queue. The program will display the ticket ID of the processed ticket.
+Display Queue: Display the ticket IDs of all the helpdesk tickets currently in the queue.
+Input format :
+The input consists of integers corresponding to the operation that needs to be performed:
+
+Choice 1: Enqueue the ticket ID into the queue. If the choice is 1, the following input is a space-separated integer, representing the ticket ID to be enqueued into the queue.
+
+Choice 2: Dequeue a ticket from the queue.
+
+Choice 3: Display the ticket IDs in the queue.
+
+Choice 4: Exit the program.
+
+Output format :
+The output displays messages according to the choice and the status of the queue:
+
+If the choice is 1:
+
+Insert the given ticket ID into the queue and display "Helpdesk Ticket ID [id] is enqueued." where [id] is the ticket ID that is inserted.
+If the queue is full, print "Queue is full. Cannot enqueue."
+If the choice is 2:
+
+Dequeue a ticket ID from the queue and display "Dequeued Helpdesk Ticket ID: " followed by the corresponding ID that is dequeued.
+If the queue is empty without any elements, print "Queue is empty."
+If the choice is 3:
+
+The output prints "Helpdesk Ticket IDs in the queue are: " followed by the space-separated ticket IDs present in the queue.
+If there are no elements in the queue, print "Queue is empty."
+If the choice is 4:
+
+Exit the program and print "Exiting the program"
+If any other choice is entered, print "Invalid option."
+

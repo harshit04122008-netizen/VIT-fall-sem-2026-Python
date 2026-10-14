@@ -1,0 +1,52 @@
+Problem Statement
+
+
+
+Rohit is building a queue system for managing cars waiting to exit a mall’s parking lot. As cars arrive at the exit barrier, they join the queue. Security allows one car to leave at a time in the order they arrived.
+
+
+
+To implement this system efficiently, Rohit wants to use a queue data structure with an array and a fixed size.
+
+
+
+You are assigned the task of creating a program that simulates this queue behavior.
+
+
+
+Operations to Perform:
+
+Add Car to Exit Queue: Enqueue the car's registration number.
+Release Car: Dequeue the car at the front of the queue.
+Display Queue: Show all cars currently waiting to exit.
+Input format :
+The input consists of integers representing user choices:
+
+Choice 1: Add a car to the exit queue. The next input will be a space-separated string representing the car's registration number (e.g., TN01AB1234).
+
+Choice 2: Release the car at the front (dequeue).
+
+Choice 3: Display the list of cars currently in the exit queue.
+
+Choice 4: Exit the program.
+
+Output format :
+The output displays messages according to the choice and the status of the queue:
+
+
+
+If the choice is 1:
+
+Insert the given registration number and display "Car [reg] joined the exit queue." (where [reg] is the registration number of the car.)
+If the queue is full, print "Exit queue is full."
+If the choice is 2:
+
+Dequeue a registration number and display "Car [reg] has exited the parking lot."
+If the queue is empty, print "Exit queue is empty."
+If the choice is 3:
+
+Print "Cars waiting in the exit queue: [reg1] [reg2] ..."
+If the queue is empty, print "Exit queue is empty."
+If the choice is 4: Print "Exiting the parking lot system."
+
+If any other choice is entered: Print "Invalid menu option."

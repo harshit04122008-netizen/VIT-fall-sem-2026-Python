@@ -1,0 +1,44 @@
+Problem Statement
+
+
+
+Dharun, an enthusiastic computer science student, is eager to learn about queues and their implementation using arrays to handle character data efficiently. Your task is to create a user-friendly character queue program to support her learning journey. 
+
+
+
+The program should encompass the following functionalities:
+
+Initialize the Queue: The program should start with an empty character queue, capable of holding up to five characters.
+Enqueue Characters: The program should add characters to the queue. When the queue is full, the program should inform that additional characters cannot be enqueued.
+Dequeue Characters: The program should enable the removal of characters from the front of the queue. When a character is dequeued, the program should notify about which character was removed. If the queue is empty, an appropriate message should be displayed.
+Display the Queue: The characters should be presented in the order they were added.
+Input format :
+The input consists of integers corresponding to the operation that needs to be performed:
+
+Choice 1: Enqueue the character into the queue. If the choice is 1, the following input is a space-separated character, representing the character to be enqueued into the queue.
+
+Choice 2: Dequeue a character from the front of the queue.
+
+Choice 3: Display the characters in the queue.
+
+Choice 4: Exit the program.
+
+Output format :
+The output displays messages according to the choice and the status of the queue:
+
+If the choice is 1:
+
+Insert the given character into the queue and display "Character [char] is enqueued." where [char] is the character that is inserted.
+If the queue is full, print "Queue is full. Cannot enqueue."
+If the choice is 2:
+
+Dequeue a character from the queue and display "Dequeued Character: " followed by the corresponding character that is dequeued.
+If the queue is empty without any elements, print "Queue is empty."
+If the choice is 3:
+
+Print "Characters in the queue are: " followed by the space-separated characters in the queue.
+If there are no elements in the queue, print "Queue is empty."
+If the choice is 4:
+
+Exit the program and print "Exiting program"
+If any other choice is entered, the output prints "Invalid option."
