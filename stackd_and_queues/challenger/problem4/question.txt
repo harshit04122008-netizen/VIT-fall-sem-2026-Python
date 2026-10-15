@@ -1,0 +1,49 @@
+Problem Statement
+
+
+
+In an office setting, a print job management system is used to efficiently handle and process print jobs. The system is implemented using a queue data structure with an array. 
+
+
+
+The program provides the following operations:
+
+Enqueue Print Job: Add a print job with a specified number of pages to the end of the queue.
+Dequeue Print Job: Remove and process the next print job in the queue.
+Display Queue: Display the print jobs in the queue
+
+
+The program should ensure that print jobs are processed in the order they are received.
+
+Input format :
+The input consists of integers corresponding to the operation that needs to be performed:
+
+Choice 1: Enqueue the print job into the queue. If the choice is 1, the following input is a space-separated integer, representing the pages to be enqueued into the queue.
+
+Choice 2: Dequeue a print job from the queue.
+
+Choice 3: Display the print jobs in the queue.
+
+Choice 4: Exit the program.
+
+Output format :
+The output displays messages according to the choice and the status of the queue:
+
+
+
+If the choice is 1:
+
+Insert the given page into the queue and display "Print job with [page] pages is enqueued." where [page] is the number of pages that are inserted.
+If the queue is full, print "Queue is full. Cannot enqueue."
+If the choice is 2:
+
+Dequeue a page from the queue and display "Processing print job: [page] pages" where [page] is the corresponding page that is dequeued.
+If the queue is empty without any elements, print "Queue is empty."
+If the choice is 3:
+
+The output prints "Print jobs in the queue: " followed by the space-separated pages present in the queue.
+If there are no elements in the queue, print "Queue is empty."
+If the choice is 4:
+
+Exit the program and print "Exiting program"
+If any other choice is entered, the output prints "Invalid option."

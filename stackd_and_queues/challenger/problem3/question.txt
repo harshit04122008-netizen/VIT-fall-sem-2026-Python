@@ -1,0 +1,54 @@
+Problem Statement
+
+
+
+Harsha is a library assistant responsible for managing book storage shelves. Each book is represented by an integer ID. To manage the books efficiently, Harsha needs a program to simulate a stack-based shelf system using an array.
+
+
+
+The program must support the following operations:
+
+Add a Book to the Shelf: Harsha can push a book ID onto the shelf.
+Remove a Book from the Shelf: Harsha can pop the top book from the shelf and remove it.
+Display Current Books: Harsha can view all the book IDs currently on the shelf.
+Peek at the Top Book: Harsha can view the ID of the book at the top of the shelf without removing it.
+Exit the Shelf Management System: Harsha can exit the application.
+
+
+Help Harsha develop this shelf management system.
+
+Input format :
+The input consists of integer choices for operations:
+
+Choice 1: Push a book onto the shelf (followed by the book ID).
+
+Choice 2: Pop a book from the shelf.
+
+Choice 3: Display all books on the shelf.
+
+Choice 4: Peek at the top book on the shelf.
+
+Choice 5: Exit the system.
+
+Output format :
+The output displays messages according to the choice:
+
+For choice 1, print: "Book <<book_id>> is added to the shelf"
+
+
+For choice 2, print: "Book <<book_id>> is removed from the shelf"
+If the shelf is empty: "No books on the shelf"
+
+
+For choice 3, if there are books: "Books on the shelf: <<book_ids>>" book_ids are printed from top to bottom space separated.
+Otherwise: "Shelf is empty"
+
+
+For choice 4, if the shelf is not empty: print "Top book on the shelf: <<book_id>>" where book_id is the ID of the top book.
+If the shelf is empty: print "Shelf is empty".
+
+
+For choice 5, print: "Exiting the shelf management system"
+
+
+For any invalid choice, print: "Invalid choice"

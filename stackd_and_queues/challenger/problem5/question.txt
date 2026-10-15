@@ -1,0 +1,47 @@
+Problem Statement
+
+
+
+Priya is designing a supermarket checkout queue system to efficiently manage customer flow. Customers join the queue, and cashiers process their orders. 
+
+
+
+Her goal is to implement the core functionality of this system using a queue data structure with an array with the following operations: 
+
+Add Customer to Queue: Add a customer to the checkout queue. A unique customer ID identifies each customer.
+Delete Customer: Remove the customer at the front of the queue. 
+Display Queue: Display the customer IDs of all customers in the queue.
+
+
+Help her in designing the program.
+
+Input format :
+The input consists of integers corresponding to the operation that needs to be performed:
+
+Choice 1: Add a customer to the queue. If the choice is 1, the next line of input consists of an integer, representing the customer ID.
+
+Choice 2: Dequeue a customer ID from the queue.
+
+Choice 3: Display the list of customer IDs waiting in the queue.
+
+Choice 4: Exit the program.
+
+Output format :
+The output displays messages according to the choice and the status of the queue:
+
+If the choice is 1:
+
+Insert the given customer ID into the queue and display "Customer ID [id] joined the checkout queue." where [id] is the customer ID that is inserted.
+If the queue is full, print "Checkout queue is full."
+If the choice is 2:
+
+Dequeue a customer ID from the queue and display "Processed Customer ID: " followed by the corresponding ID that is dequeued.
+If the queue is empty without any elements, print "Checkout queue is empty."
+If the choice is 3:
+
+The output prints "Customers waiting in the checkout queue: " followed by the space-separated customer IDs present in the queue.
+If there are no elements in the queue, print "Checkout queue is empty."
+If the choice is 4:
+
+Exit the program and print "Exiting Program"
+If any other choice is entered, print "Invalid option."
