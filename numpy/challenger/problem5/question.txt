@@ -1,0 +1,28 @@
+Problem Statement
+
+Matthew is working on a data manipulation project that involves expanding a 2D array by repeating 
+each row twice. He needs a Python program to automate this task. 
+
+Help him write a program that takes a 2D array as input from the user, expands it by repeating each 
+row twice, and then displays both the original and expanded arrays.
+
+Note:
+
+Use np.expand_dims to add a new axis to the array (axis=1), making it one extra dimension.
+
+Use np.repeat to repeat each row twice along the added axis.
+
+Input format :
+The first line of input is an integer row, representing the number of rows in the 2D array.
+
+The second line of input is an integer col, representing the number of columns in the 2D array.
+
+The next row lines of input consists of space-separated integers representing the elements of each row 
+of the array.
+
+Output format :
+The first line prints "Original array:" followed by the standard 2D NumPy array of shape (rows, cols)
+
+Then print a blank line
+
+The second section prints "Expanded array:" followed by a 3D NumPy array of shape (rows, 2, cols)

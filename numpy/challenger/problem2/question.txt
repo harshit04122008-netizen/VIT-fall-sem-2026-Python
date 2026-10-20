@@ -1,0 +1,21 @@
+Problem Statement
+
+Raja is working on a project analyzing the prices of gifts data. He needs a program that can calculate 
+and display the median and mean from a given set of price data.
+
+Additionally, he needs to understand how to manipulate the shape of the array using NumPy's np.squeeze() 
+and np.expand_dims() functions.
+
+Help him to write a program for the above-given information.
+
+Note:
+
+Use np.mean() and np.median() for the mean and median.
+
+Input format :
+The input consists of a single line containing space-separated integers representing the prices of gifts.
+
+Output format :
+The first line prints "Median Price: <median_value>" formatted to two decimal places.
+
+The second line prints: "Mean Price: <mean_value>" formatted to two decimal places.

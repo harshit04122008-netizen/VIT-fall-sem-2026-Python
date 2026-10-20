@@ -1,0 +1,25 @@
+Problem Statement
+
+Meenu is a researcher working on a project involving 2D arrays. 
+She needs to develop a program that reads a square matrix from user input and extracts its 
+diagonal elements using NumPy. The program should first construct the original matrix and then 
+extract the diagonal slice. 
+
+Write a program to ensure that the task is done.
+
+Input format :
+The first line contains an integer r, representing the number of rows in the 2D array.
+
+The second line contains an integer c, representing the number of columns in the 2D array.
+
+The next r lines each contain c space-separated integers representing the elements of the 2D array.
+
+Output format :
+The first line prints "Original 2D Array: "
+
+Followed by the full 2D matrix enclosed in double square brackets, with each row on a new line.
+
+The second line prints "Diagonal Slice: "
+
+Followed by the diagonal elements of the matrix enclosed in a single pair of square brackets on a new
+line.

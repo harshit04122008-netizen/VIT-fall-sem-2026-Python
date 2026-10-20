@@ -1,0 +1,17 @@
+Problem Statement
+
+Ishaan is working on a data analysis task involving matrix transformations. 
+He needs to clean a 2D grid of numbers by removing the effect of its main diagonal elements. 
+Write a program to transform a given 2D array such that all main diagonal elements are replaced 
+with zero while preserving the rest of the values.
+
+Input format :
+The first line of input is an integer, R, representing the number of rows in the matrix.
+
+The second line of input is an integer, C, representing the number of columns in the matrix.
+
+The third line of input consists of space-separated integers representing the elements of the matrix in 
+row-major order.
+
+Output format :
+The output prints a 2D matrix with all main diagonal elements replaced by 0, printed in array format

@@ -1,0 +1,28 @@
+Problem Statement
+
+Emily is surveying to analyze the distribution of gym visit frequencies among participants. 
+She collects data from each participant and stores it in a list, which is then converted into a 
+NumPy array for analysis. 
+
+Using functions like np.squeeze() to remove single-dimensional entries, Emily ensures accurate 
+processing, np.sort() to organize the data, and expanding the array shape using 
+np.expand_dims(fre_array_sorted, axis=0).
+
+Additionally, she employs np.percentile() to calculate quartiles (Q1 = 25, Q2 = 50, Q3 = 75), 
+providing valuable insights into the distribution of gym visit frequencies among participants.
+
+Input format :
+The first line contains an integer N, representing the number of participants in the survey.
+
+The next N lines each contain an integer F, representing the gym visit frequency of a participant.
+
+Output format :
+The output displays three lines containing the quartiles of the gym visit frequencies:
+
+"First Quartile (Q1): " followed by the first quartile value as a float.
+
+"Second Quartile (Q2): " followed by the second quartile (median) value as a float.
+
+"Third Quartile (Q3): " followed by the third quartile value as a float.
+
+Values are printed as-is in NumPy's default float format (e.g., 11.0, 12.5).
