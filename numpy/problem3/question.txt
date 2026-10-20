@@ -1,12 +1,10 @@
 Problem Statement
 
-
-
-You are helping a space agency set up a data grid for incoming satellite signals. The engineer provides:
-
-The number of dimensions
-The desired shape of the grid
-A list of elements to fill the grid
+You are helping a space agency set up a data grid for incoming satellite signals. 
+The engineer provides:
+    The number of dimensions
+    The desired shape of the grid
+    A list of elements to fill the grid
 
 
 Write a program that creates a NumPy array using the input and prints its shape. 

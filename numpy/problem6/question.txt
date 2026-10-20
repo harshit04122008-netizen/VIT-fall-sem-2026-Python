@@ -1,30 +1,27 @@
 Problem Statement
 
+Ethan is curious about projecting his height from age 6 to 10 based on his measurements from birth to 
+age 5. To accomplish this, he plans to write a program using NumPy to facilitate data manipulation. 
+He intends to utilize the np.squeeze() function to remove single-dimensional entries from arrays during 
+the process.
 
-
-Ethan is curious about projecting his height from age 6 to 10 based on his measurements from birth to age 5. To accomplish this, he plans to write a program using NumPy to facilitate data manipulation. He intends to utilize the np.squeeze() function to remove single-dimensional entries from arrays during the process.
-
-
-
-By incorporating a simple growth model with a 10% annual growth rate, Ethan aims to predict his height for the next five years. The program must collect Ethan's height measurements from age 0 to 5, process the data using NumPy, and print the projected heights for ages 6 to 10 as strings, rounded to two decimal places.
-
-
+By incorporating a simple growth model with a 10% annual growth rate, Ethan aims to predict his height 
+for the next five years. The program must collect Ethan's height measurements from age 0 to 5, process 
+the data using NumPy, and print the projected heights for ages 6 to 10 as strings, rounded to two 
+decimal places.
 
 This program will enable Ethan to visualize his potential height progression over the coming years.
 
 Input format :
-The input consists of six lines, each containing a floating-point number, representing Ethan's height (in centimeters) from age 0 to age 5.
+The input consists of six lines, each containing a floating-point number, representing Ethan's height 
+(in centimeters) from age 0 to age 5.
 
 Output format :
 The output should consist of exactly two lines:
-
-
 
 Predicted height for ages 6 to 10:
 
 ['height_6', 'height_7', 'height_8', 'height_9', 'height_10']
 
-
-
-The second line must be a list of strings, where each predicted height is rounded to two decimal places and enclosed in quotes.
-
+The second line must be a list of strings, where each predicted height is rounded to two decimal places 
+and enclosed in quotes.

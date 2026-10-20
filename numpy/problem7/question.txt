@@ -1,0 +1,23 @@
+Problem Statement
+
+Kamal is working on a data transformation tool in a manufacturing unit where he needs to process a 
+1D array of sensor readings. His task is to create an extended version of the array by appending its 
+reverse to itself and then reshaping it into a 2D array with a single row.
+
+Write a program to help Kamal by taking the size and elements of a 1D array, reversing the array, 
+appending the reversed version to the original, and reshaping the result into a single row 2D array 
+using NumPy
+
+Input format :
+The first line of input is an integer, n, representing the size of the 1D array.
+
+The next n lines of input consist of integers, each representing an element of the array.
+
+Output format :
+The first line prints "Original array: "
+
+The second line prints a 1D array printed using standard NumPy formatting
+
+The third line prints "Expanded array: "
+
+The fourth line prints the expanded array printed using standard NumPy formatting (2D array with one row)
