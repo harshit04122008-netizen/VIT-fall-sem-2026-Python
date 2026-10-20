@@ -1,0 +1,17 @@
+Problem Statement
+
+
+
+Bob is organizing a sports event and wants to sort participants based on their height. He needs a program that will take the number of participants, their names, ages, and heights as input, and then output the sorted list of participants in ascending order of their height. The program should use a structured NumPy array to store and sort the data.
+
+
+
+Your task is to help Bob in implementing the same.
+
+Input format :
+The first line of input consists of an integer num_people, representing the number of participants.
+
+The next num_people line each contain a string and two integers separated by spaces, representing the name, age, and height of a person, respectively.
+
+Output format :
+The output prints the structured NumPy array, which consists of a list of tuples, each containing a name (string), age (integer), and height (integer). This array is sorted by height in ascending order.

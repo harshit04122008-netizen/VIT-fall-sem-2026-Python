@@ -1,0 +1,27 @@
+Problem Statement
+
+
+
+Vinai wants to develop a program that takes a list of integers as input, squares each of its elements, and adjusts the array's dimensions appropriately. If the input array is one-dimensional, it must be expanded into a 2D array before squaring. After squaring, the array should be squeezed back to a 1D format. 
+
+
+
+Write a program to ensure that the task is done.
+
+
+
+Note:
+
+np.square: Use to square each element of the array.
+
+np.expand_dims: Use to expand the dimensions of an array.
+
+np.squeeze: Use to remove single-dimensional entries from the shape of an array.
+
+Input format :
+The input consists of a single line containing space-separated integers representing the elements of the array.
+
+Output format :
+The first line prints "Original array: " followed by the array in 2D format (one row enclosed in double square brackets).
+
+On the next line, print "Expanded array (squared): " followed by the squared elements in a 1D format enclosed in a single pair of square brackets.

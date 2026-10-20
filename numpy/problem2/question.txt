@@ -1,0 +1,17 @@
+Problem Statement
+
+
+
+Ishaan is building a matrix visualization tool and starts by generating a 2D array filled with 1s using np.ones. He wants to apply a transformation where alternate indices follow a checkerboard-like pattern by setting specific positions to 0. 
+
+
+
+Write a program to generate a 2D array of 1s using np.ones and then modify it so that every element at (even row, odd column) and (odd row, even column) is set to 0.
+
+Input format :
+The first line contains an integer, R, representing the number of rows in the matrix.
+
+The second line contains an integer, C, representing the number of columns in the matrix.
+
+Output format :
+The output prints a 2D array where elements are modified from a base array of 1s using the described alternating pattern

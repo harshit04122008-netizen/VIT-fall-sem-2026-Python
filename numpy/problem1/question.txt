@@ -1,0 +1,27 @@
+Problem Statement
+
+
+
+Sophia is developing a program to generate a 2D matrix where each element is the product of its row and column indices. She needs to write a program to take the number of rows and columns as input and return a matrix filled such that each element at position (i, j) equals i × j. 
+
+
+
+Write a program to ensure that the task is done.
+
+Input format :
+The first line contains a single integer R, representing the number of rows in the matrix.
+
+The second line contains a single integer C, representing the number of columns in the matrix.
+
+Output format :
+The output prints "Generated 2D Matrix:" on one line.
+
+The next lines print the full matrix using the default string format of a NumPy matrix object:
+
+All rows must appear inside a single pair of outer square brackets [[...]],
+
+Each row is printed on a new line,
+
+
+
+No extra spaces should be printed before or after the brackets or elements.

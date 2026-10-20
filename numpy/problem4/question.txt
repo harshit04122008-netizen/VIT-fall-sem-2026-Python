@@ -1,0 +1,27 @@
+Problem Statement
+
+
+
+Rohan has a 2D NumPy array with a specific number of rows and columns. He wants to sort this array in three different ways:
+
+
+
+Sort each row of the array in ascending order.
+Flatten the array and sort it in ascending order.
+Sort each column of the array in ascending order.
+
+
+Write a program to help Rohan sort the array in these three ways.
+
+Input format :
+The first line contains two space-separated integers, n and m, representing the number of rows and columns of the array, respectively.
+
+The next n lines contain m space-separated integers, each representing the elements of the array.
+
+Output format :
+The first line of output prints "Sorted based on last axis(1):" followed by the array sorted row-wise.
+
+The second line prints "Sorted flattened array:" followed by the flattened and sorted array.
+
+The third line prints "Sorted based on axis 0:" followed by the array sorted column-wise.
+

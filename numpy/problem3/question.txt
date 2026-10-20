@@ -1,0 +1,22 @@
+Problem Statement
+
+
+
+You are helping a space agency set up a data grid for incoming satellite signals. The engineer provides:
+
+The number of dimensions
+The desired shape of the grid
+A list of elements to fill the grid
+
+
+Write a program that creates a NumPy array using the input and prints its shape. 
+
+Input format :
+The first line of input consists of an integer (num_dimensions) representing the number of dimensions.
+
+The second line of input consists of space-separated integers representing the elements of the array.
+
+Output format :
+The output starts with: "Shape of the array:" Followed by a Python tuple(..)
+
+The tuple contains the shape of the NumPy array, and its values are separated by commas
