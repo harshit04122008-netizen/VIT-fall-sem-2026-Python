@@ -1,0 +1,30 @@
+Problem Statement
+
+Noah, a meteorologist, is analyzing daily rainfall data and wants to categorize it into predefined 
+intervals: 0–10, 11–20, 21–30, 31–40, and 40+. Write a program to classify rainfall values into 
+these intervals, compute the frequency of occurrences in each interval, and calculate both the overall
+mean and sample standard deviation of the values. Display the results in a structured frequency 
+distribution table, followed by the computed statistics.
+
+Note: Use sample standard deviation (denominator = N-1)
+
+Input format :
+The first line contains an integer N, representing the number of days.
+
+The second line contains N space-separated floating-point numbers representing daily rainfall 
+values (in millimeters).
+
+Output format :
+The first line prints "Frequency Distribution Table:"
+
+Then print a table with two columns:
+
+Interval: 0-10, 11-20, 21-30, 31-40, 40+, and a Total row.
+
+Frequency: number of rainfall values in each interval and the total.
+
+After the table, print:
+
+"Mean Rainfall: <mean_value rounded to 2 decimal places>"
+
+"Standard Deviation: <sample_std_dev rounded to 5 decimal places>"

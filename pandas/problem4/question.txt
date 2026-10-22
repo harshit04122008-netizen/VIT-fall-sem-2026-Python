@@ -1,0 +1,24 @@
+Problem Statement
+
+Billa needs a program to manage food inventory details for the factory kitchen. 
+The program will take the name, price, and quantity of three food items. 
+It should compute the total price of each item (price × quantity) and display the results 
+in a neatly formatted table.
+
+Write a program to create a pandas DataFrame with columns for food name, price, quantity, and total 
+price. The total price must be formatted to two decimal places and shown as a string to preserve 
+formatting. The output must exactly match the structure and alignment of a typical pandas.DataFrame 
+print and must not use custom string formatting or manual alignment.
+
+Input format :
+The input consists of 3 lines, each line contains three space-separated values representing the 
+details of the Food name (string), Price of the food item (floating-point number), and Quantity of 
+the food item (integer) separated by space.
+
+Output format :
+The output printe the following:
+
+A pandas DataFrame with columns: 'Food Name', 'Price', 'Quantity', and 'Total Price'
+'Total Price' must be formatted as a string with exactly two decimal points using '{:.2f}'. format ()
+The DataFrame must be printed using print(df) or print(df.to_string(index=True)) — no custom string 
+formatting is allowed

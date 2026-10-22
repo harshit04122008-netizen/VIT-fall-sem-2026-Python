@@ -1,0 +1,32 @@
+Problem Statement
+
+Ava is analyzing electricity consumption (in kWh) data collected from various households. 
+She wants to group the data into standard intervals and summarize the frequency and average 
+usage for each interval. Additionally, she needs to compute the overall statistics, including mean, 
+variance, standard deviation, and total count of values.
+
+Write a program that classifies the input consumption values into the intervals: 0–100, 101–200, 
+201–300, 301–400, and 400+. For each interval, compute the frequency and mean consumption, rounded 
+to 2 decimal places. If no values fall in an interval, display '-' for the mean. The program must also 
+compute the overall mean, variance, standard deviation (sample), and the total number of values, and 
+present all results in a structured format.
+
+Input format :
+The input consists of a single line containing space-separated integers representing electricity 
+consumption values (kWh).
+
+Output format :
+First line prints "Electricity Consumption Summary"
+
+Then, a table with three columns:
+
+Interval: one of "0-100", "101-200", "201-300", "301-400", "400+", "Total"
+Frequency: number of values in that interval
+Mean Consumption: mean of values in that interval, rounded to 2 decimal places, or '-' if none
+After the table, print:
+
+"Overall Mean Consumption: <value> kWh"
+"Variance: <value>"
+"Standard Deviation: <value>"
+The mean in the Total row should reflect the overall mean of all input values, rounded to 2 decimal 
+places.

@@ -1,1 +1,18 @@
-k,bjnih
+Problem Statement
+
+Ram is working on a project to validate voter IDs for a government election system.
+
+He seeks your help in writing a program that takes user input for voter IDs, processes the data, 
+and outputs a data frame with the voter IDs using Pandas.
+
+Input format :
+The input consists of a space-separated string representing voter IDs.
+
+Output format :
+The output prints a pandas DataFrame with a single column named "Voter ID".
+
+The DataFrame includes a 0-based integer index on the left.
+
+Each row contains one voter ID.
+
+Refer to the sample output for the exact column alignment and spacing.

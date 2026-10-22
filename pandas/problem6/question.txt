@@ -1,0 +1,28 @@
+Problem Statement
+
+You are given a log of user login timestamps. Each record contains a User_ID and a Login_Timestamp 
+(in YYYY-MM-DD HH:MM:SS format). Your task is to process this log using pandas to extract two 
+additional columns:
+
+Hour: The hour of the day (0 to 23) when the login occurred.
+
+Is_Weekend: A boolean indicating whether the login happened on a weekend (True if Saturday or Sunday, 
+otherwise False).
+
+Write a program to read n login entries, process them as described, and output the resulting DataFrame.
+
+Input format :
+The first line contains an integer n, the number of login records.
+
+The next n lines each contain a User_ID and a Login_Timestamp separated by space. The timestamp may 
+contain spaces, so only the first space separates the two fields.
+
+Output format :
+The first line of output prints: "Processed:"
+
+The second and subsequent lines print the DataFrame df as shown by print(df) including:
+
+The DataFrame index column (starting from 0)
+The columns in order: User_ID, Login_Timestamp, Hour, Is_Weekend
+Each row of the DataFrame with values of User_ID, Login_Timestamp (formatted as YYYY-MM-DD HH:MM:SS),
+Hour (integer), and Is_Weekend (boolean True or False)

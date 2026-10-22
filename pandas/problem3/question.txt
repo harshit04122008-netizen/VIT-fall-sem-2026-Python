@@ -1,0 +1,29 @@
+Problem Statement
+
+John is a teacher who wants to keep track of his five students' information including their names, 
+ages, cities, qualifications, and marks in different subjects.
+
+He needs a program to input this information, calculate the average marks of each student and output 
+displays the data frame format using pandas.
+
+Help John by writing a program to accomplish this task.
+
+Input format :
+The input consists of 5 sets of lines, each representing information about a student.
+
+Each set contains two lines:
+
+The first line contains the student's name as a string, age as an integer, city as a string, 
+and qualification as a string separated by space.
+
+The second line contains space-separated integer values representing the marks obtained by the student 
+in different subjects.
+
+Output format :
+The output should display a data frame containing the following columns:
+
+'Name': Name of the student
+'Age': Age of the student
+'City': City of the student
+'Qualification': Qualification of the student
+'Average Mark': Average marks obtained by the student, rounded to 2 decimal places.

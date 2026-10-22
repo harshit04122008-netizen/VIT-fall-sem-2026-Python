@@ -1,0 +1,31 @@
+Problem Statement
+
+Susi is the HR manager at a tech company, and she needs to streamline the employee onboarding process.
+
+She wants to create a program that takes input from new employees and stores their details in a pandas 
+data frame for easy management.
+
+The program should handle information such as name, age, qualification, salary, and performance.
+
+Input format :
+The first line consists of a string representing the employee's name.
+
+The second line consists of an integer representing the employee's age.
+
+The third line consists of a string representing the employee's educational qualification.
+
+The fourth line consists of a float representing the employee's salary.
+
+The fifth line consists of a string representing the employee's performance level.
+
+Output format :
+The program outputs a single row DataFrame with columns representing the personal information provided:
+
+'Name': Name of the individual
+'Age': Age of the individual
+'Qualification': Qualification of the individual
+'Salary': Salary of the individual
+'Performance': Performance rating of the individual
+
+
+The data frame contains one row corresponding to the provided personal information.
