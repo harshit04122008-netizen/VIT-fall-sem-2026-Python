@@ -1,0 +1,30 @@
+Problem Statement
+
+Raj, an administrator at a university, needs a tool to efficiently manage student information. 
+He wants you to create a program that takes user input to populate a pandas DataFrame with student 
+details.
+
+
+
+The program should handle a variable number of entries specified by the user. Additionally, 
+Raj prefers the student names to be in uppercase and the department names to be capitalized 
+(first letter uppercase, rest lowercase) in the final DataFrame.
+
+Input format :
+The first line contains an integer n, representing the number of student entries to be made.
+
+For the next n lines, each line contains four space-separated values representing the student's name, 
+student ID, department, and age, respectively.
+
+Output format :
+The program prints the complete pandas DataFrame after processing all entries.
+
+The DataFrame must have these exact columns in this order:
+
+'Name', 'Student ID', 'Department', 'Age'.
+
+The 'Name' column values should be in uppercase letters.
+The 'Student ID' column values should be printed as entered.
+The 'Department' column values should be capitalized (only the first letter uppercase).
+The 'Age' column values should be integers.
+The DataFrame index column (0-based) must be printed on the left as per pandas default printing behavior.

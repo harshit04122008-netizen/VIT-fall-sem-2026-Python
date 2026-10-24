@@ -1,0 +1,30 @@
+Problem Statement
+
+Liam, a factory supervisor, is analyzing daily production output and wants to categorize it into 
+predefined levels: Low (0–99), Moderate (100–199), High (200–299), and Excellent (300+). 
+
+
+
+Write a program to classify production values into these categories, compute the frequency of 
+occurrences in each level, and calculate the overall mean, variance, and standard deviation of all 
+production values. The results must be displayed in a structured frequency distribution table using 
+a pandas DataFrame.
+
+Input format :
+The input consists of a single line containing space-separated integers representing daily production 
+values.
+
+Output format :
+The first line prints "Daily Production Analysis"
+
+Lines 2–6: A frequency distribution table in two columns:
+Column 1: "Production Level" (one of "Low (0-99)", "Moderate (100-199)", "High (200-299)", 
+"Excellent (300+)")
+Column 2: "Frequency" (number of production values in that category)
+The table must be printed using print(df.to_string(index=False)) to ensure column alignment
+
+The next three lines must print:
+
+Average Production: followed by the mean of all production values, rounded to 2 decimal places
+Variance: followed by the sample variance, rounded to 2 decimal places
+Standard Deviation: followed by the sample standard deviation, rounded to 2 decimal places

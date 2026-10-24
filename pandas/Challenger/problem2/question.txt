@@ -1,0 +1,32 @@
+Problem Statement
+
+Divin wants a Python program to manage flight booking records efficiently. 
+The program should take passenger details — name, age, flight ID, state, 
+and rate — and store them in a pandas DataFrame. All input values must be treated as strings, 
+including numeric-looking fields like age and rate, to maintain consistent formatting in the 
+DataFrame output.
+
+Write a program to:
+
+Accept n passenger entries.
+Construct and print the original DataFrame with all columns: name, age, flight_id, state, and rate.
+Drop the 'age' and 'state' columns and print the updated DataFrame.
+Print the number of columns in the updated DataFrame, and the names of the remaining columns as a 
+NumPy array.
+
+Input format :
+The first line contains an integer n, representing the number of passenger entries.
+
+Next n lines: Each line contains space-separated values in the following order:
+
+name age flight_id state rate
+
+(All values should be treated as strings, even if they look numeric.)
+
+Output format :
+The output prints the following:
+
+The original DataFrame
+The updated DataFrame after dropping 'age' and 'state'
+The number of columns in the updated DataFrame (as an integer)
+Print the names of the columns in the updated DataFrame as a NumPy array — no custom text or labels

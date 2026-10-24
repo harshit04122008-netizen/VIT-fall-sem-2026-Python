@@ -1,0 +1,27 @@
+Problem Statement
+
+Jinu needs a program to collect performance data from Team A and Team B for multiple matches. 
+Each match consists of two sets of integer scores, one for Team A and the other for Team B. 
+The program should prompt Jinu to input these scores for each match.
+
+After collecting the data, the program should display the performance scores of both teams for each 
+match in separate data frames. Additionally, it should concatenate the DataFrames for further analysis.
+
+Input format :
+The user is prompted to input the performance scores of Team A and Team B for each match.
+
+Each match's input consists of four lines, where each line contains two space-separated integers 
+representing the performance scores for Team A and Team B in that match.
+
+Each integer represents the performance score of a team in a particular aspect of the match.
+
+Output format :
+The program outputs two DataFrames (df1 and df2) representing the performance scores of Team A and 
+Team B for each match, respectively.
+
+Each DataFrame has two columns labeled 'A' and 'B', where 'A' contains the performance scores of 
+Team A and 'B' contains the performance scores of Team B.
+
+After concatenating the DataFrames, the program outputs the concatenated DataFrame.
+
+The concatenated DataFrame includes keys 'key1' and 'key2' to identify the source of data for each match.

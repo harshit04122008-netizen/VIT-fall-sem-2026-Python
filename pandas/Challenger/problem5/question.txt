@@ -1,0 +1,35 @@
+Problem Statement
+
+You are given enrollment data for multiple users in a system. Each record contains a User_ID and 
+their corresponding Enrollment_Date. Your task is to process this data using pandas to add two 
+additional columns:
+
+Day_of_Week: The day of the week (e.g., Monday, Tuesday) corresponding to the Enrollment_Date.
+Half_Month: Indicates whether the enrollment day falls in the "First" half (1st to 15th day) or the 
+"Second" half (16th to end) of the month.
+
+Return the processed DataFrame with the new columns included.
+
+Input format :
+The first line contains an integer n — the number of enrollment records.
+
+Each of the next n lines contains two space-separated values:
+
+User_ID (string)
+
+Enrollment_Date (string in YYYY-MM-DD format)
+
+Output format :
+The first line of output prints:
+
+Processed:
+
+Then print the pandas DataFrame df as produced by print(df). The DataFrame includes these columns in order:
+
+User_ID, Enrollment_Date, Day_of_Week, Half_Month
+
+Each row prints the respective values, where:
+
+Enrollment_Date is shown in standard date format (YYYY-MM-DD)
+Day_of_Week is the day name corresponding to the date
+Half_Month is "First" if day ≤ 15, otherwise "Second"
